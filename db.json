@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "name": "Anas Ch",
+      "password": "admin",
+      "email": "anas@gmail.com",
+      "phone": "+923289602109",
+      "address": "Jahanian Chk No 113/10R",
+      "country": "",
+      "gender": "male",
+      "role": "admin"
+    },
+    {
+      "id": "user",
+      "name": "User nts",
+      "password": "user",
+      "email": "user@gmail.com",
+      "phone": "03002233444",
+      "address": "ajakdadada",
+      "role": "user",
+      "menu": "customer",
+      "country": "",
+      "gender": "male"
+    },
+    {
+      "id": "guest",
+      "name": "guest 2",
+      "password": "guest",
+      "email": "guest@gmail.com",
+      "phone": "03003344555",
+      "address": "street 1",
+      "country": "",
+      "gender": "male"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "haveremove": true,
+      "haveview": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "haveremove": false,
+      "haveview": true
+    },
+    {
+      "role": "guest",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "haveremove": false
+    }
+  ],
+  "customer": [
+    {
+      "code": "1",
+      "name": "anas",
+      "email": "anas@gmail.com"
+    },
+    {
+      "code": "2",
+      "name": "saim",
+      "email": "anas@gmail.com"
+    },
+    {
+      "code": "3",
+      "name": "awais",
+      "email": "awais@gmail.com"
+    },
+    {
+      "code": "4",
+      "name": "zain",
+      "email": "zainkhan@gmail.com"
+    }
+  ]
+}
